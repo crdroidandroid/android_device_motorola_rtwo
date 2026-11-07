@@ -21,6 +21,9 @@ PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Inherit from motorola sm8550-common
 $(call inherit-product, device/motorola/sm8550-common/common.mk)
 
